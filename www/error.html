@@ -1,0 +1,22 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>游戏看看</title>
+
+<style type="text/css">
+	.loding{ position:fixed;top:50%;left:50%;margin-left:-8px;margin-top:-8px;z-index:10000;display:block;}
+</style>
+
+<script src="cordova.js" type="text/javascript"></script>
+<script type="text/javascript">
+	
+	function exitApp(){
+		navigator.app.exitApp();
+	}
+</script>
+</head> 
+<body>
+<div class="loding" align="center"><img src="images/loding.gif"><br/><a href="javascript:void(0)" onclick="exitApp()">退出</a></div>
+</body>
+</html>
